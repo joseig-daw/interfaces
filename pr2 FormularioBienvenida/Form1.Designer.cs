@@ -37,6 +37,7 @@
             btnLimpiar = new Button();
             label2 = new Label();
             label3 = new Label();
+            lblCurso = new Label();
             SuspendLayout();
             // 
             // lblNombre
@@ -119,11 +120,21 @@
             label3.TabIndex = 9;
             label3.Text = "La edad no debe ser negativa";
             // 
+            // lblCurso
+            // 
+            lblCurso.AutoSize = true;
+            lblCurso.Location = new Point(53, 195);
+            lblCurso.Name = "lblCurso";
+            lblCurso.Size = new Size(166, 15);
+            lblCurso.TabIndex = 10;
+            lblCurso.Text = "Desarrollo de Interfaces · DAM";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(lblCurso);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(btnLimpiar);
@@ -151,5 +162,6 @@
         private Button btnLimpiar;
         private Label label2;
         private Label label3;
+        private Label lblCurso;
     }
 }
