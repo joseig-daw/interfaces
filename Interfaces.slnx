@@ -1,4 +1,5 @@
 <Solution>
-  <Project Path="pr2 FormularioBienvenida/pr2 FormularioBienvenida.csproj" />
   <Project Path="pr1 MiPrimeraAplicacion/pr1 MiPrimeraAplicacion.csproj" />
+  <Project Path="pr2 FormularioBienvenida/pr2 FormularioBienvenida.csproj" />
+  <Project Path="pr3 Controles Basicos/pr3 Controles Basicos.csproj" Id="fd87d2ec-607c-4b81-a1bd-d7707e426b3c" />
 </Solution>
